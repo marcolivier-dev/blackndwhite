@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+#mainHeader, #mainFooter {
+    background-color: red;
+}
+p:first-of-type::first-line {
+    font-size: 20px;
+    color: red;
+    font-family: Joan,Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+   font-family:Roboto; 
+   text-transform: capitalize;
+   font-weight: bold;
+   font-variant: small-caps;
+   text-align: justify;
+}
+
+#leftCol {
+    line-height: 1;
+}
+
+#leftCol h1 {
+    letter-spacing: normal;
+    text-decoration: dotted oldlace overline;
+}
